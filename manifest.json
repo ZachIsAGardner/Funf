@@ -1,0 +1,15 @@
+{
+    "name": "Funf",
+    "version": "1.0",
+    "description": "Blocks the annoying trailer at the end of movies!",
+    "manifest_version": 2,
+    
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.netflix.com/*"
+          ],
+          "js": ["funf.js"]
+        }
+      ]
+}
